@@ -1,156 +1,238 @@
-# 👨‍💻 Luqman Al Hakim
+/*
+====================================================
+MODERN ENGINEERING PORTFOLIO (REACT VERSION)
+Designed for IoT + AI Engineer Profile (Luqman)
+====================================================
+*/
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00C2FF&center=true&vCenter=true&width=800&lines=IoT+Systems+Engineer;Embedded+Systems+%7C+AI+Developer;Smart+Agriculture+%7C+Industrial+IoT;Building+Engineering+Solutions+from+Theory+to+Reality" />
-</p>
+import React from "react";
 
-<p align="center">
-  <b>Electronic Engineering Graduate | IoT Systems Engineer | Embedded & AI Developer</b>
-</p>
+// =========================
+// UI LAYOUT STRUCTURE
+// =========================
 
-<p align="center">
-  Turning engineering theory into real-world intelligent systems.
-</p>
+/*
+PAGE STRUCTURE (MODERN ENGINEER STYLE)
 
----
+1. HERO SECTION
+   - Name + Role (IoT + AI Engineer)
+   - Short impact tagline
+   - CTA buttons (GitHub / Resume / Projects)
 
-## ⚡ Engineering Philosophy
+2. ABOUT ENGINEER
+   - Theory → Practice → Real-world mindset
 
-> *"From theory to implementation — designing systems that operate in real environments."*
+3. FYP SHOWCASE (MAIN SECTION ⭐)
+   - Project overview
+   - System Architecture Diagram
+   - Tech stack
+   - Results & impact
 
-I focus on transforming **engineering concepts into deployable systems**, integrating:
+4. SYSTEM ARCHITECTURE VISUAL
+   - IoT → Cloud → AI → Dashboard flow
 
-- Embedded hardware & sensors  
-- Industrial communication (LoRa, Modbus RTU)  
-- Cloud-based data pipelines  
-- Machine learning for decision-making  
+5. MINI PROJECTS
+   - IoT + Embedded systems
 
----
+6. ENGINEERING LAB (EXPERIMENTS)
+   - sensor testing, LoRa range, ML comparison
 
-## 🚀 Featured Project (Final Year Project)
+7. FREELANCE WORK
+   - real client-based engineering solutions
 
-### 🌱 Soil Sensing System for Precision Irrigation and Fertilisation in Smart Agriculture
+8. EXPERIENCE
+   - internship + hardware repair
 
-A complete **IoT + AI system** designed for real-time soil monitoring and intelligent agricultural decision-making.
+9. SKILLS MATRIX
+   - grouped + proficiency levels
 
----
+10. CONTACT
+*/
 
-### 🧩 System Architecture
+// =========================
+// HERO SECTION
+// =========================
+export function Hero() {
+  return (
+    <section className="hero">
+      <h1>Luqman Al Hakim</h1>
+      <h3>IoT & AI Engineer | Embedded Systems Developer</h3>
+      <p>
+        Building real-world engineering systems from sensors → data → AI → impact.
+      </p>
+      <div className="buttons">
+        <button>View Projects</button>
+        <button>Download Resume</button>
+      </div>
+    </section>
+  );
+}
 
-<p align="center">
-<img src="YOUR_ARCHITECTURE_IMAGE_LINK_HERE" width="90%">
-</p>
+// =========================
+// ABOUT SECTION
+// =========================
+export function About() {
+  return (
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am an engineering student focused on IoT systems, embedded hardware,
+        and AI-driven applications. I specialize in transforming theoretical
+        concepts into real-world working systems through experimentation,
+        hardware integration, and machine learning models.
+      </p>
+    </section>
+  );
+}
 
----
+// =========================
+// FYP SECTION
+// =========================
+export function FYP() {
+  return (
+    <section>
+      <h2>Final Year Project</h2>
+      <h3>Smart Soil Sensing with Precise Agriculture System</h3>
 
-### 🔧 Engineering Implementation
+      <p>
+        An IoT-based precision agriculture system using multi-parameter soil
+        sensors and LoRa communication to monitor real-time soil conditions.
+      </p>
 
-* Developed **sensor-to-cloud pipeline** using Modbus RTU and Python  
-* Integrated **8-in-1 soil sensor system** (Moisture, pH, EC, Temperature, NPK)  
-* Implemented **LoRa (433MHz) communication** for long-range field deployment  
-* Designed **data pipeline with Google Sheets** for real-time storage  
-* Built **dashboard visualization (Google Data Studio)**  
-* Applied **AI models (LSTM, Random Forest, XGBoost)** for predictive analytics  
+      <ul>
+        <li>8-in-1 soil sensor (Moisture, pH, NPK, Temperature, etc.)</li>
+        <li>LoRa long-range communication</li>
+        <li>Cloud database storage</li>
+        <li>AI prediction (LSTM + ML hybrid)</li>
+        <li>Web dashboard visualization</li>
+      </ul>
+    </section>
+  );
+}
 
----
+// =========================
+// SYSTEM ARCHITECTURE DIAGRAM
+// =========================
+export function Architecture() {
+  return (
+    <section>
+      <h2>System Architecture</h2>
 
-### 📊 Results & Performance
+      <pre>
+{`
+[ Soil Sensors ]
+      ↓
+[ ESP32 / Microcontroller ]
+      ↓ (LoRa Transmission)
+[ Gateway Receiver ]
+      ↓
+[ Cloud Database ]
+      ↓
+[ AI Engine (LSTM + ML Models) ]
+      ↓
+[ Web Dashboard (React UI) ]
+      ↓
+[ Farmer Decision Support System ]
+`}
+      </pre>
+    </section>
+  );
+}
 
-* Achieved accurate prediction for irrigation timing  
-* Improved decision-making based on real-time soil conditions  
-* Demonstrated reliable long-range communication in field conditions  
+// =========================
+// MINI PROJECTS
+// =========================
+export function Projects() {
+  return (
+    <section>
+      <h2>Mini Projects</h2>
 
----
+      <div>
+        <h4>Smart Irrigation System</h4>
+        <p>Automatic watering system using soil moisture sensor + relay control.</p>
+      </div>
 
-### 🛠 Tech Stack
-`LoRa` · `Modbus RTU` · `Python` · `IoT Sensors` · `Google Sheets` · `Data Studio` · `Machine Learning`
+      <div>
+        <h4>IoT Weather Station</h4>
+        <p>ESP32-based weather monitoring with cloud dashboard.</p>
+      </div>
 
----
+      <div>
+        <h4>AI Soil Prediction Model</h4>
+        <p>Machine learning model predicting soil condition trends.</p>
+      </div>
+    </section>
+  );
+}
 
-## 🔬 Mini Projects & Engineering Experiments
+// =========================
+// ENGINEERING LAB
+// =========================
+export function Lab() {
+  return (
+    <section>
+      <h2>Engineering Lab (Experiments)</h2>
 
-### 📡 IoT Communication Systems
-* LoRa transmission testing and signal reliability analysis  
-* Modbus RTU communication implementation and debugging  
-* Sensor data acquisition and protocol validation  
+      <ul>
+        <li>LoRa signal range testing (distance vs signal strength)</li>
+        <li>Soil sensor calibration experiments</li>
+        <li>ML model comparison (RF vs XGBoost vs LSTM)</li>
+        <li>Hardware failure debugging (CPU, PCB, sensor faults)</li>
+      </ul>
+    </section>
+  );
+}
 
----
+// =========================
+// FREELANCE
+// =========================
+export function Freelance() {
+  return (
+    <section>
+      <h2>Freelance Engineering Work</h2>
 
-### ⚙️ Embedded System Development
-* Real-time sensor interfacing and calibration  
-* Hardware integration and circuit-level debugging  
-* Prototype system development for monitoring applications  
+      <p>
+        Delivered small-scale IoT prototypes, automation systems, and hardware
+        repair solutions for real clients.
+      </p>
 
----
+      <ul>
+        <li>Sensor-based monitoring systems</li>
+        <li>Basic web dashboards for IoT devices</li>
+        <li>Electronics troubleshooting & repair</li>
+      </ul>
+    </section>
+  );
+}
 
-### 🧠 AI & Data Experiments
-* Time-series prediction using LSTM models  
-* Classification using Random Forest and XGBoost  
-* Feature engineering for sensor-based datasets  
+// =========================
+// MAIN APP
+// =========================
+export default function App() {
+  return (
+    <div>
+      <Hero />
+      <About />
+      <FYP />
+      <Architecture />
+      <Projects />
+      <Lab />
+      <Freelance />
+    </div>
+  );
+}
 
----
+/*
+====================================================
+UI DESIGN STYLE (MODERN ENGINEER LOOK)
+====================================================
 
-## 🛠 Freelance & Practical Engineering Work
+- Dark theme background (#0f172a / navy black)
+- Accent color: cyan / green (tech feel)
+- Clean grid layout (2-column sections)
+- Card-based project display
+- Minimal typography (Inter / Poppins)
+- Animated section reveal (fade/slide)
 
-### 🔧 Luqman Tech Solution
-
-* Diagnosed and repaired PCs, laptops, and embedded systems  
-* Performed hardware-level troubleshooting and component replacement  
-* Optimized system performance and resolved software issues  
-* Supported IoT device setup and configuration  
-
----
-
-## 🧠 Core Engineering Skills
-
-### 🔌 Embedded & IoT Systems
-- Sensor integration & calibration  
-- LoRa / BLE / Wi-Fi communication  
-- Real-time monitoring systems  
-- Modbus RTU protocol  
-
-### 📊 Data & AI Engineering
-- Python data processing & automation  
-- Machine learning (LSTM, XGBoost, Random Forest)  
-- Data visualization and analytics  
-
-### 🏗 System Engineering
-- End-to-end system integration  
-- Debugging & troubleshooting  
-- Prototype validation & testing  
-
----
-
-## 📈 Continuous Development
-
-Currently expanding knowledge in:
-
-- Industrial IoT (IIoT) systems  
-- AI-driven predictive systems  
-- Embedded system optimization  
-- Smart automation technologies  
-
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true" height="150"/>
-</p>
-
----
-
-## 📫 Contact
-
-<p align="center">
-📧 your@email.com  
-💼 https://linkedin.com/in/yourprofile  
-💻 https://github.com/yourusername  
-</p>
-
----
-
-<p align="center">
-<b>Engineering real-world systems with IoT, data, and intelligence.</b>
-</p>
+====================================================
+*/
