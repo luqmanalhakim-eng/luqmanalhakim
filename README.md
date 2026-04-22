@@ -1,51 +1,118 @@
-# Luqman Al Hakim
+# 👨‍💻 Luqman Al Hakim
 
-Electronic Engineering Graduate | IoT | Embedded Systems | AI Systems
+<p align="center">
+  <b>Electronic Engineering Graduate | IoT Systems Engineer | Embedded & AI Developer</b>
+</p>
 
----
-
-## 🔗 Navigation Hub
-
-- 🚀 Portfolio: https://github.com/yourusername/luqman-engineering-portfolio  
-- 📄 Resume: (Google Drive link)  
-- 💼 LinkedIn: (your link)  
-- 💻 GitHub Projects: https://github.com/yourusername  
-- 🛠 Freelance (Luqman Tech): (WhatsApp link)  
-- 📧 Email: your email  
+<p align="center">
+  Building intelligent IoT systems that connect hardware, cloud, and AI for real-world automation.
+</p>
 
 ---
 
-## 🌱 Featured Project
+## ⚡ About Me
 
-Smart Soil Monitoring System (IoT + AI)  
-- ESP32 + LoRa communication  
-- Multi-sensor soil monitoring  
-- Machine learning prediction system  
+I am an **Electronic Engineering graduate** specializing in **IoT systems, embedded development, and AI-driven analytics**.  
 
-👉 https://github.com/yourusername/smart-soil-monitoring-system  
+My work focuses on designing **end-to-end intelligent systems** that combine:
+- Embedded hardware + sensor networks  
+- Wireless communication (LoRa, Modbus RTU)  
+- Cloud data pipelines  
+- Machine learning prediction models  
 
----
-
-## 🛠 Skills
-
-- ESP32 / Arduino  
-- LoRa / IoT systems  
-- Python / Data analysis  
-- Machine Learning (LSTM, XGBoost)  
+I am passionate about solving real-world problems in **smart agriculture and industrial automation** using scalable engineering solutions.
 
 ---
 
-## 🔧 Freelance Work
+## 🚀 Featured Project
 
-Luqman Tech Solution  
-- Electronics troubleshooting  
-- Embedded system support  
-- IoT setup services  
+### 🌱 Soil Sensing System for Precision Irrigation and Fertilisation in Smart Agriculture (FYP)
+
+An **IoT + AI precision agriculture system** for real-time soil monitoring and intelligent irrigation/fertilisation prediction.
+
+#### 🔧 System Highlights
+- IoT-based multi-sensor soil monitoring system  
+- 8-in-1 soil sensing (Moisture, pH, EC, Temperature, NPK)  
+- LoRa (433MHz) long-range wireless communication  
+- Python-based **Modbus RTU real-time data acquisition**  
+- Google Sheets cloud data pipeline  
+- Google Data Studio real-time dashboard  
+- AI prediction using **LSTM, Random Forest, XGBoost**
+
+#### 📊 Outcome
+- Predicts optimal irrigation timing  
+- Predicts fertilisation requirements  
+- Enables data-driven smart farming decisions  
+
+#### 🛠 Tech Stack
+`LoRa` · `Modbus RTU` · `Python` · `IoT Sensors` · `Google Sheets` · `Data Studio` · `Machine Learning`
 
 ---
 
-## 📘 Learning
+## 🧠 Core Expertise
 
-- Embedded systems  
-- AI for IoT  
-- Automation systems  
+### 🔌 Embedded & IoT Systems
+- IoT firmware & system design  
+- Sensor integration & calibration  
+- LoRa / BLE / Wi-Fi communication  
+- Real-time monitoring systems  
+- Industrial protocol: Modbus RTU  
+
+### 📊 AI & Data Engineering
+- Python automation & data pipelines  
+- Time-series forecasting (LSTM)  
+- Classification models (XGBoost, Random Forest)  
+- IoT data analytics & visualization  
+
+### 🏗 System Engineering
+- End-to-end system integration (hardware → cloud → AI)  
+- Debugging & hardware troubleshooting  
+- Prototype development & validation  
+- Industrial IoT solution design  
+
+---
+
+## 📁 Projects
+
+<p align="left">
+
+🌱 Smart Soil Monitoring System (IoT + AI)  
+📡 IoT Sensor Communication Systems (LoRa & Modbus RTU)  
+⚙️ Embedded System Prototyping & Development  
+🔧 Electronics Diagnostics & Troubleshooting Case Studies  
+
+</p>
+
+---
+
+## 📈 Current Focus
+
+- Industrial IoT (IIoT) systems  
+- AI-driven predictive maintenance  
+- Embedded system optimization  
+- Smart agriculture automation  
+
+---
+
+## 🏆 Achievements / Strengths
+
+- End-to-end IoT system development experience  
+- Real-world deployment of sensor + communication systems  
+- Strong integration of hardware + AI + cloud  
+- Practical engineering troubleshooting background  
+
+---
+
+## 📫 Connect With Me
+
+<p align="left">
+📧 Email: your@email.com  
+💼 LinkedIn: https://linkedin.com/in/yourprofile  
+💻 GitHub: https://github.com/yourusername  
+</p>
+
+---
+
+<p align="center">
+<b>“Engineering intelligent systems that connect the physical world to AI.”</b>
+</p>
