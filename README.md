@@ -1,6 +1,12 @@
 # 👨‍💻 Luqman Al Hakim
 
 <p align="center">
+  
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00C2FF&center=true&vCenter=true&width=800&lines=IoT+Systems+Engineer;Embedded+Systems+%7C+AI+Developer;Smart+Agriculture+%7C+Industrial+IoT;Building+Real-World+Engineering+Solutions" />
+
+</p>
+
+<p align="center">
   <b>Electronic Engineering Graduate | IoT Systems Engineer | Embedded & AI Developer</b>
 </p>
 
@@ -10,17 +16,47 @@
 
 ---
 
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![IoT](https://img.shields.io/badge/IoT-00C2FF?style=for-the-badge&logo=internetofthings&logoColor=white)
+![LoRa](https://img.shields.io/badge/LoRa-008080?style=for-the-badge)
+![Modbus](https://img.shields.io/badge/Modbus-FF6F00?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets)
+![Data Studio](https://img.shields.io/badge/Data%20Studio-4285F4?style=for-the-badge)
+
+</p>
+
+---
+
 ## ⚡ About Me
 
-I am an **Electronic Engineering graduate** specializing in **IoT systems, embedded development, and AI-driven analytics**.  
+I am an **Electronic Engineering graduate** specializing in **IoT systems, embedded development, and AI-driven analytics**.
 
-My work focuses on designing **end-to-end intelligent systems** that combine:
-- Embedded hardware + sensor networks  
-- Wireless communication (LoRa, Modbus RTU)  
-- Cloud data pipelines  
-- Machine learning prediction models  
+I design **end-to-end intelligent systems** integrating:
 
-I am passionate about solving real-world problems in **smart agriculture and industrial automation** using scalable engineering solutions.
+<p align="center">
+
+🔌 Embedded Hardware & Sensors  
+📡 LoRa & Modbus RTU Communication  
+☁️ Cloud Data Pipelines  
+🧠 AI Prediction Models  
+
+</p>
+
+Focused on **smart agriculture and industrial IoT**, delivering scalable real-world engineering solutions.
 
 ---
 
@@ -30,56 +66,67 @@ I am passionate about solving real-world problems in **smart agriculture and ind
 
 An **IoT + AI precision agriculture system** for real-time soil monitoring and intelligent irrigation/fertilisation prediction.
 
-#### 🔧 System Highlights
+---
+
+## 🧩 System Architecture
+
+<p align="center">
+
+
+</p>
+
+---
+
+## 🔧 System Highlights
+
 - IoT-based multi-sensor soil monitoring system  
 - 8-in-1 soil sensing (Moisture, pH, EC, Temperature, NPK)  
-- LoRa (433MHz) long-range wireless communication  
-- Python-based **Modbus RTU real-time data acquisition**  
-- Google Sheets cloud data pipeline  
-- Google Data Studio real-time dashboard  
+- LoRa long-range wireless communication  
+- Python-based **Modbus RTU real-time acquisition**  
+- Cloud pipeline with Google Sheets  
+- Dashboard visualization using Data Studio  
 - AI prediction using **LSTM, Random Forest, XGBoost**
 
-#### 📊 Outcome
-- Predicts optimal irrigation timing  
-- Predicts fertilisation requirements  
-- Enables data-driven smart farming decisions  
+---
 
-#### 🛠 Tech Stack
-`LoRa` · `Modbus RTU` · `Python` · `IoT Sensors` · `Google Sheets` · `Data Studio` · `Machine Learning`
+## 📊 Outcome
+
+✔ Predicts optimal irrigation timing  
+✔ Predicts fertilisation requirements  
+✔ Enables data-driven smart farming  
 
 ---
 
 ## 🧠 Core Expertise
 
-### 🔌 Embedded & IoT Systems
-- IoT firmware & system design  
+### 🔌 Embedded & IoT
 - Sensor integration & calibration  
-- LoRa / BLE / Wi-Fi communication  
+- LoRa / BLE / Wi-Fi systems  
 - Real-time monitoring systems  
-- Industrial protocol: Modbus RTU  
+- Modbus RTU communication  
 
-### 📊 AI & Data Engineering
-- Python automation & data pipelines  
+### 📊 AI & Data
+- Python automation & pipelines  
 - Time-series forecasting (LSTM)  
-- Classification models (XGBoost, Random Forest)  
-- IoT data analytics & visualization  
+- ML models (XGBoost, Random Forest)  
+- Data visualization  
 
-### 🏗 System Engineering
-- End-to-end system integration (hardware → cloud → AI)  
-- Debugging & hardware troubleshooting  
-- Prototype development & validation  
-- Industrial IoT solution design  
+### 🏗 Engineering
+- End-to-end system integration  
+- Debugging & troubleshooting  
+- Prototype validation  
+- Industrial IoT system design  
 
 ---
 
 ## 📁 Projects
 
-<p align="left">
+<p align="center">
 
-🌱 Smart Soil Monitoring System (IoT + AI)  
-📡 IoT Sensor Communication Systems (LoRa & Modbus RTU)  
-⚙️ Embedded System Prototyping & Development  
-🔧 Electronics Diagnostics & Troubleshooting Case Studies  
+🌱 **Smart Soil Monitoring System (IoT + AI)**  
+📡 **IoT Sensor Communication (LoRa & Modbus RTU)**  
+⚙️ **Embedded System Prototyping**  
+🔧 **Electronics Troubleshooting Case Studies**
 
 </p>
 
@@ -87,28 +134,21 @@ An **IoT + AI precision agriculture system** for real-time soil monitoring and i
 
 ## 📈 Current Focus
 
-- Industrial IoT (IIoT) systems  
-- AI-driven predictive maintenance  
-- Embedded system optimization  
+- Industrial IoT (IIoT)  
+- AI-driven predictive systems  
+- Embedded optimization  
 - Smart agriculture automation  
-
----
-
-## 🏆 Achievements / Strengths
-
-- End-to-end IoT system development experience  
-- Real-world deployment of sensor + communication systems  
-- Strong integration of hardware + AI + cloud  
-- Practical engineering troubleshooting background  
 
 ---
 
 ## 📫 Connect With Me
 
-<p align="left">
-📧 Email: your@email.com  
-💼 LinkedIn: https://linkedin.com/in/yourprofile  
-💻 GitHub: https://github.com/yourusername  
+<p align="center">
+
+📧 your@email.com  
+💼 https://linkedin.com/in/yourprofile  
+💻 https://github.com/yourusername  
+
 </p>
 
 ---
